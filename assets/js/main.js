@@ -7,7 +7,7 @@ calcular.onclick = function() {
   var peso= document.getElementById('peso').value ;
   var estatura = document.getElementById('estatura').value ;
   var records = document.getElementById('records') ;
-//alert ("basio "  + auxilio +"calra");
+
 if (nombre !="" && peso != "" && estatura!="") {
    if(nombre.search(texto)) {
          alert("Ingresa sólo letras");}
